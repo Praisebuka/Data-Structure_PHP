@@ -1,4 +1,6 @@
 <?php
+
+
 class LinkedList {
     # create the head of the list that points to the head.
     public $head; 
@@ -13,8 +15,8 @@ class Node {
     public $data;
     public $next;
 
-    public function __construct($d) {
-        $this->data = $d;
+    public function __construct($k) {
+        $this->data = $k;
         $this->next = null;
     }
 }
